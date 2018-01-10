@@ -1,0 +1,29 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.swissbib.ch/bibliographicResource/149208375> a dct:BibliographicResource,
+        bibo:Book ;
+    dc:format "280 p : Ill" ;
+    dct:contributor <http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> ;
+    dct:issued "1986" ;
+    dct:language <http://lexvo.org/id/iso639-3/eng> ;
+    dct:subject <http://d-nb.info/gnd/4160492-1>,
+        <http://d-nb.info/gnd/4355999-2> ;
+    dct:title "Central Plains prehistory : holocene environments and culture change in the Republican River basin" ;
+    bibo:isbn10 "080324729X" ;
+    bibo:isbn13 "9780803247291" ;
+    rdau:P60049 <http://rdvocab.info/termList/RDAContentType/1020> ;
+    rdau:P60050 <http://rdvocab.info/termList/RDAMediaType/1007> ;
+    rdau:P60163 <http://sws.geonames.org/6252001/> ;
+    rdau:P60333 "Lincoln : University of Nebraska press, cop. 1986" ;
+    rdau:P60339 "Waldo R. Wedel" ;
+    rdau:P60470 "Bibliogr. p. 239-268. Index" ;
+    rdfs:isDefinedBy <http://data.swissbib.ch/document/149208375> .
+

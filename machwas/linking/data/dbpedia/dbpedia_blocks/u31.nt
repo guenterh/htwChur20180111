@@ -1,0 +1,60 @@
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://dbpedia.org/ontology/birthDate> "1821-04-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://dbpedia.org/ontology/birthYear> "1821"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://dbpedia.org/ontology/deathDate> "1895-03-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://dbpedia.org/ontology/deathYear> "1895"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://xmlns.com/foaf/0.1/familyName> "1\u00BA Barone di Alcester"@it .
+<http://dbpedia.org/resource/Beauchamp_Seymour,_1st_Baron_Alcester> <http://xmlns.com/foaf/0.1/familyName> "Beauchamp Paget Seymour"@it .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://dbpedia.org/ontology/birthDate> "1781-08-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://dbpedia.org/ontology/birthYear> "1781"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://dbpedia.org/ontology/deathDate> "1833-03-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://dbpedia.org/ontology/deathYear> "1833"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://xmlns.com/foaf/0.1/familyName> "1\u00BA Conte di Dudley (in inglese 1st Earl of Dudley)"@it .
+<http://dbpedia.org/resource/John_Ward,_1st_Earl_of_Dudley> <http://xmlns.com/foaf/0.1/familyName> "Ward"@it .
+<http://dbpedia.org/resource/Master_of_1310> <http://dbpedia.org/ontology/birthDate> "1300"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Master_of_1310> <http://dbpedia.org/ontology/deathDate> "1310"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Master_of_1310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Master_of_1310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Master_of_1310> <http://xmlns.com/foaf/0.1/givenName> "Master of"@en .
+<http://dbpedia.org/resource/Master_of_1310> <http://xmlns.com/foaf/0.1/familyName> "1310"@en .
+<http://dbpedia.org/resource/Master_of_1518> <http://dbpedia.org/ontology/birthDate> "0015"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Master_of_1518> <http://dbpedia.org/ontology/deathDate> "0016"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Master_of_1518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist> .
+<http://dbpedia.org/resource/Master_of_1518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Master_of_1518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Master_of_1518> <http://xmlns.com/foaf/0.1/givenName> "Master Of"@en .
+<http://dbpedia.org/resource/Master_of_1518> <http://xmlns.com/foaf/0.1/familyName> "1518"@en .
+<http://dbpedia.org/resource/Master_of_the_Prayer_Books_of_around_1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist> .
+<http://dbpedia.org/resource/Master_of_the_Prayer_Books_of_around_1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Master_of_the_Prayer_Books_of_around_1500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Master_of_the_Prayer_Books_of_around_1500> <http://xmlns.com/foaf/0.1/givenName> "Master Of The Prayer Books Of Around"@en .
+<http://dbpedia.org/resource/Master_of_the_Prayer_Books_of_around_1500> <http://xmlns.com/foaf/0.1/familyName> "1500"@en .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://dbpedia.org/ontology/birthDate> "1650"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://dbpedia.org/ontology/birthYear> "1660"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://dbpedia.org/ontology/deathDate> "1693-08-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://dbpedia.org/ontology/deathYear> "1693"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://xmlns.com/foaf/0.1/familyName> "1\u00BA Conte di Lucan"@it .
+<http://dbpedia.org/resource/Patrick_Sarsfield,_1st_Earl_of_Lucan> <http://xmlns.com/foaf/0.1/familyName> "Sarsfield"@it .
+<http://dbpedia.org/resource/Terminal_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/Terminal_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/Terminal_11> <http://xmlns.com/foaf/0.1/givenName> "Terminal"@en .
+<http://dbpedia.org/resource/Terminal_11> <http://xmlns.com/foaf/0.1/familyName> "11"@en .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://dbpedia.org/ontology/birthDate> "1893"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://dbpedia.org/ontology/birthDate> "1893-01-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://dbpedia.org/ontology/birthYear> "1893"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://dbpedia.org/ontology/deathDate> "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://dbpedia.org/ontology/deathDate> "1978-05-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://dbpedia.org/ontology/deathYear> "1978"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://xmlns.com/foaf/0.1/familyName> "1\u00BA Barone Strang"@it .
+<http://dbpedia.org/resource/William_Strang,_1st_Baron_Strang> <http://xmlns.com/foaf/0.1/familyName> "Strang"@it .

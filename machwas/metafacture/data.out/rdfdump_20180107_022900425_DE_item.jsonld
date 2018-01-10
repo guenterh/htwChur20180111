@@ -1,0 +1,3 @@
+[
+{"@type":"http://bibframe.org/vocab/HeldItem","@context":"https://resources.swissbib.ch/item/context.jsonld","bf:subLocation":"Freihand 03","@id":"http://data.swissbib.ch/item/NEBIS-322313af-be89-3509-bd09-144c2df9a34f","bf:holdingFor":"http://data.swissbib.ch/bibliographicResource/149208375","foaf:page":"http://opac.nebis.ch/F?func=item-global&doc_library=EBI01&doc_number=003082312&sub_library=Z01","bibo:locator":"GQ 1686","bibo:owner":"http://data.swissbib.ch/organisation/NEBIS-Z01"}
+]

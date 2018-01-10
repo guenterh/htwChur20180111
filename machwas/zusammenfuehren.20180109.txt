@@ -1,0 +1,32 @@
+java -jar genconfig-tool/genconfig-1.0-SNAPSHOT.jar limes data/swissbib/swissbib_blocks data/dbpedia/dbpedia_blocks linking/templates/swissbib-dbpedia_birthDate.xml.template linking/configs
+
+
+
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT ?b ?v0 ?v1 ?v2 ?v3
+FROM <http://linked.swissbib.ch/dbpedia>
+WHERE {
+?b rdf:type foaf:Person .
+?b foaf:givenName ?v0 .
+?b foaf:familyName ?v1 .
+?b dbp:birthDate ?v2 .
+?b dbp:birthYear ?v3 .
+}
+
+
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT ?a ?v0 ?v1 ?v2
+FROM <http://linked.swissbib.ch/swissbib>
+WHERE {
+?a rdf:type foaf:Person .
+?a foaf:firstName ?v0 .
+?a foaf:lastName ?v1 .
+?a dbp:birthYear ?v2 .
+}
+
+
+htwChur201801/machwas$ apache-jena-3.6.0/bin/sparql --data=/usr/local/swissbib/htwChur201801/machwas/linking/data/dbpedia/dbpedia_blocks/u57_1.nt --query=/usr/local/swissbib/htwChur201801/machwas/linking/data/dbpedia/query/query.dbpedia.txt

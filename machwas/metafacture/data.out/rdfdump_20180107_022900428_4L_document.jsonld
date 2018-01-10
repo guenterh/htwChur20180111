@@ -1,0 +1,3 @@
+[
+{"@type":"http://purl.org/ontology/bibo/document","@context":"https://resources.swissbib.ch/document/context.jsonld","dct:issued":"2018-01-07T13:29:00.385Z","@id":"http://data.swissbib.ch/bibliographicResource/149208375/about","foaf:primaryTopic":"http://data.swissbib.ch/bibliographicResource/149208375","dct:modified":"2016-08-01T07:10:53+01:00","dct:contributor":["http://d-nb.info/gnd/1046905-9","http://data.swissbib.ch/organisation/NEBIS"],"bf:local":["OCoLC/468762636","NEBIS/003082312"]}
+]

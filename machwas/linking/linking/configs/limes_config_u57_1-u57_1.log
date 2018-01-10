@@ -1,0 +1,82 @@
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:135): ID: src_u57_1
+Var: ?a
+Prefixes: {dbp=http://dbpedia.org/ontology/, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#, foaf=http://xmlns.com/foaf/0.1/}
+Endpoint: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/swissbib_blocks/u57_1.nt
+Graph: http://linked.swissbib.ch/swissbib
+Restrictions: [?a rdf:type foaf:Person]
+Properties: [foaf:firstName, foaf:lastName, dbp:birthYear]
+Functions: {foaf:firstName={foaf:firstName=nolang -> lowercase}, foaf:lastName={foaf:lastName=nolang -> lowercase}, dbp:birthYear={dbp:birthYear=number}}
+Page size: -1
+Type: n-triple
+
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:136): ID: tgt_u57_1
+Var: ?b
+Prefixes: {dbp=http://dbpedia.org/ontology/, rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#, foaf=http://xmlns.com/foaf/0.1/}
+Endpoint: /usr/local/swissbib/htwChur201801/machwas/linking/data/dbpedia/dbpedia_blocks/u57_1.nt
+Graph: http://linked.swissbib.ch/dbpedia
+Restrictions: [?b rdf:type foaf:Person]
+Properties: [foaf:givenName, foaf:familyName, dbp:birthDate, dbp:birthYear]
+Functions: {foaf:familyName={foaf:familyName=nolang -> lowercase}, dbp:birthDate={birth=number}, foaf:givenName={foaf:givenName=nolang -> lowercase}, dbp:birthYear={birth=number}}
+Page size: -1
+Type: n-triple
+
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:141): Loading source data ...
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:232): Checking for file /usr/local/swissbib/htwChur201801/machwas/linking/cache/-590392032.ser
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:248): No cached data found for src_u57_1
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.QueryModuleFactory.getQueryModule(QueryModuleFactory.java:19): Generating <n-triple> reader
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.FileQueryModule.<init>(FileQueryModule.java:56): RDF model read from /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/swissbib_blocks/u57_1.nt is of size 6
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.ModelRegistry.register(ModelRegistry.java:34): Registry = [/usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/swissbib_blocks/u57_1.nt]
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:70): Query Graph: http://linked.swissbib.ch/swissbib
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:93): Properties are [foaf:firstName, foaf:lastName, dbp:birthYear]
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:139): Query issued is 
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT ?a ?v0 ?v1 ?v2
+FROM <http://linked.swissbib.ch/swissbib>
+WHERE {
+?a rdf:type foaf:Person .
+?a foaf:firstName ?v0 .
+?a foaf:lastName ?v1 .
+?a dbp:birthYear ?v2 .
+}
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:141): Querying the endpoint.
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:149): Getting statements 0 to -1
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:248): Retrieved 1 triples and 1 entities.
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:249): Retrieving statements took 0.236 seconds.
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.saveToFile(HybridCache.java:179): Serializing 1 objects to /usr/local/swissbib/htwChur201801/machwas/linking/cache/-590392032.ser
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:146): Loading target data ...
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:232): Checking for file /usr/local/swissbib/htwChur201801/machwas/linking/cache/1976608307.ser
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.getData(HybridCache.java:248): No cached data found for tgt_u57_1
+09.01.2018 20:06:26 INFO  [main] de.uni_leipzig.simba.query.QueryModuleFactory.getQueryModule(QueryModuleFactory.java:19): Generating <n-triple> reader
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.FileQueryModule.<init>(FileQueryModule.java:56): RDF model read from /usr/local/swissbib/htwChur201801/machwas/linking/data/dbpedia/dbpedia_blocks/u57_1.nt is of size 301624
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.ModelRegistry.register(ModelRegistry.java:34): Registry = [/usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/swissbib_blocks/u57_1.nt, /usr/local/swissbib/htwChur201801/machwas/linking/data/dbpedia/dbpedia_blocks/u57_1.nt]
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:70): Query Graph: http://linked.swissbib.ch/dbpedia
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:93): Properties are [foaf:givenName, foaf:familyName, dbp:birthDate, dbp:birthYear]
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:139): Query issued is 
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT ?b ?v0 ?v1 ?v2 ?v3
+FROM <http://linked.swissbib.ch/dbpedia>
+WHERE {
+?b rdf:type foaf:Person .
+?b foaf:givenName ?v0 .
+?b foaf:familyName ?v1 .
+?b dbp:birthDate ?v2 .
+?b dbp:birthYear ?v3 .
+}
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:141): Querying the endpoint.
+09.01.2018 20:06:28 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:149): Getting statements 0 to -1
+09.01.2018 20:06:30 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:248): Retrieved 63763 triples and 33048 entities.
+09.01.2018 20:06:30 INFO  [main] de.uni_leipzig.simba.query.SparqlQueryModule.fillCache(SparqlQueryModule.java:249): Retrieving statements took 1.472 seconds.
+09.01.2018 20:06:30 INFO  [main] de.uni_leipzig.simba.cache.HybridCache.saveToFile(HybridCache.java:179): Serializing 33048 objects to /usr/local/swissbib/htwChur201801/machwas/linking/cache/1976608307.ser
+09.01.2018 20:06:32 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:159): Getting links ...
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:162): Got links in 12927ms.
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.io.SerializerFactory.getSerializer(SerializerFactory.java:22): Getting serializer with name N3
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.io.SerializerFactory.getSerializer(SerializerFactory.java:30): Serializer with name N3 not found. Using .nt as default format.
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:172): Using N3Serializer to serialize
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:191): Returned 1 links above acceptance threshold.
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:192): Returned 0 links to review.
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:199): Mapping carried out in 18.929 seconds
+09.01.2018 20:06:44 INFO  [main] de.uni_leipzig.simba.controller.PPJoinController.run(PPJoinController.java:200): Done.

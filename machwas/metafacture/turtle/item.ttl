@@ -1,0 +1,18 @@
+@prefix bf: <http://bibframe.org/vocab/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.swissbib.ch/item/NEBIS-322313af-be89-3509-bd09-144c2df9a34f> a bf:HeldItem ;
+    bf:holdingFor <http://data.swissbib.ch/bibliographicResource/149208375> ;
+    bf:subLocation "Freihand 03" ;
+    bibo:locator "GQ 1686" ;
+    bibo:owner <http://data.swissbib.ch/organisation/NEBIS-Z01> ;
+    foaf:page <http://opac.nebis.ch/F?func=item-global&doc_library=EBI01&doc_number=003082312&sub_library=Z01> .
+

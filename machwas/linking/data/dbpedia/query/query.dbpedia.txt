@@ -1,0 +1,12 @@
+PREFIX dbp: <http://dbpedia.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT ?b ?v0 ?v1 ?v2 ?v3
+FROM <http://linked.swissbib.ch/dbpedia>
+WHERE {
+?b rdf:type foaf:Person .
+?b foaf:givenName ?v0 .
+?b foaf:familyName ?v1 .
+?b dbp:birthDate ?v2 .
+?b dbp:birthYear ?v3 .
+}

@@ -1,0 +1,12 @@
+java
+lib
+plugins
+pom.xml
+provided-libs
+metafacture-runner-3.3.0-SNAPSHOT.jar
+machwas/apache-jena-3.6.0
+machwas/linking/cache
+machwas/linking/genconfig-tool
+machwas/linking/limes-tool
+machwas/linking/reshaper-tool
+machwas/linking/data/dbpedia/dbpedia_blocks/u57_1.nt

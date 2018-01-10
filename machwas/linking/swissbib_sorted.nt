@@ -1,0 +1,7 @@
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://dbpedia.org/ontology/birthYear> "1908"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://dbpedia.org/ontology/deathYear> "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://www.w3.org/2000/01/rdf-schema#label> "Wedel, Waldo Rudolph, 1908-1996" .
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://www.w3.org/2002/07/owl#sameAs> <http://d-nb.info/gnd/129773301> .
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://xmlns.com/foaf/0.1/firstName> "Waldo Rudolph" .
+<http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084> <http://xmlns.com/foaf/0.1/lastName> "Wedel" .

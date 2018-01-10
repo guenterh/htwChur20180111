@@ -1,0 +1,11 @@
+[{
+    "foaf:lastName": "Wedel",
+    "foaf:firstName": "Waldo Rudolph",
+    "dbp:birthYear": "1908",
+    "dbp:deathYear": "1996",
+    "owl:sameAs": "http://d-nb.info/gnd/129773301",
+    "@id": "http://data.swissbib.ch/person/8004f8a7-66e6-3880-a4fc-b2b8ae136084",
+    "@type": "http://xmlns.com/foaf/0.1/Person",
+    "@context": "https://resources.swissbib.ch/person/context.jsonld",
+    "rdfs:label": "Wedel, Waldo Rudolph, 1908-1996"
+}]

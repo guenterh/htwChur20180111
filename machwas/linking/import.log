@@ -1,0 +1,8 @@
+https://resources.swissbib.ch/work/context.jsonld: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/contexts/work/context.jsonld
+https://resources.swissbib.ch/document/context.jsonld: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/contexts/document/context.jsonld
+https://resources.swissbib.ch/person/context.jsonld: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/contexts/person/context.jsonld
+https://resources.swissbib.ch/organisation/context.jsonld: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/contexts/organisation/context.jsonld
+/context.jsonld: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/contexts/resource/context.jsonld
+https://resources.swissbib.ch/item/context.jsonld: /usr/local/swissbib/htwChur201801/machwas/linking/data/swissbib/contexts/item/context.jsonld
+#1 Processing rdfdump_20180107_122925181_kw_person.jsonld
+Done
